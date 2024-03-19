@@ -14,7 +14,7 @@ def lambda_handler(event,context):
     key='2024-03-09-raw_input.json'
     
     # Define the S3 bucket and file key for the target JSON file
-    target_bucket_name = 'doordash-target-zn'
+    target_bucket_name = 'doordash-target-zn-sai'
     target_key = 'output.json'
     
     try:
